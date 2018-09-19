@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Select-arrow-zone</name>
+   <tag></tag>
+   <elementGuidId>aff4363f-680a-4797-b306-803c74f0d66e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Select-arrow-zone</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper sub-nav-closed&quot;]/div[@class=&quot;mp-page&quot;]/div[@class=&quot;mp-page-body&quot;]/div[@class=&quot;mp-content&quot;]/div[2]/form[1]/div[@class=&quot;mp-content-section&quot;]/div[@class=&quot;mp-content-block col-sm-12 border-none&quot;]/div[@class=&quot;mp-block-body&quot;]/div[@class=&quot;form-row&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;Select is-clearable is-focused is-searchable Select--multi&quot;]/div[@class=&quot;Select-control&quot;]/span[@class=&quot;Select-arrow-zone&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

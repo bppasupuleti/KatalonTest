@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with emergepay Settings role, and verifies that user can be selected without any errors.</description>
+   <name>UsersTab_AddNewUser_emergepay</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>483d9156-576d-453d-a636-19509b9a0ac3</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>c7e59e4e-ce0b-41f7-96fb-00ecacb65a24</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>d5f284c9-f349-4035-b2b9-ef539e2a9048</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

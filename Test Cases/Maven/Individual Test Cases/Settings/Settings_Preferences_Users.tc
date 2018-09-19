@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Successfully creates a new company without any errors.</description>
+   <name>Settings_Preferences_Users</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>b4d793ce-5468-4431-9516-d01d35ac5f34</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>239ef47c-d7e3-40b7-84e0-c09e6a00106f</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>9854f805-0202-4689-802e-660eeada4195</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

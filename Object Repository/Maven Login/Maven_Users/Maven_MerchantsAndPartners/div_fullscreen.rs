@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_fullscreen</name>
+   <tag></tag>
+   <elementGuidId>58b77166-ba8c-4c65-9185-a066a2e28f52</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mp-submenu-fullscreen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>fullscreen</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;mp-page fixed-table&quot;]/div[@class=&quot;mp-page-body&quot;]/div[@class=&quot;mp-submenu&quot;]/div[@class=&quot;mp-submenu-content&quot;]/div[@class=&quot;mp-submenu-actions&quot;]/div[@class=&quot;mp-submenu-fullscreen&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

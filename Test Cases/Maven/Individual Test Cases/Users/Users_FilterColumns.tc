@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Successfully tests column filter functionality.</description>
+   <name>Users_FilterColumns</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>245c282a-f6de-4204-b478-8b49ceff4e8a</testCaseGuid>
+</TestCaseEntity>

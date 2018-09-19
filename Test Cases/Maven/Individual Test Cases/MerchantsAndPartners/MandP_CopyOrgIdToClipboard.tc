@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Successfully creates a new company by Location without any errors.</description>
+   <name>MandP_CopyOrgIdToClipboard</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>bd256ec6-9dc0-4eb7-acc6-53d5af8d669d</testCaseGuid>
+   <variable>
+      <defaultValue>'1922442031'</defaultValue>
+      <description>orgId</description>
+      <id>63f0ad0f-1d03-441e-bd8f-45d23b75621c</id>
+      <masked>false</masked>
+      <name>orgId</name>
+   </variable>
+</TestCaseEntity>

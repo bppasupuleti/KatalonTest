@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login test case for Tester 5, which is a Terminal Configuration User</description>
+   <name>Login_TerminalConfiguration</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>ae35f56f-aa0f-4ca6-b30d-2766f14354dc</testCaseGuid>
+</TestCaseEntity>

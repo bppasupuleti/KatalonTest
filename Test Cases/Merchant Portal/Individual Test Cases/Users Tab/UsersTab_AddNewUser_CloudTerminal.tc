@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with Cloud Terminal role, and verifies that user can be selected without any errors.</description>
+   <name>UsersTab_AddNewUser_CloudTerminal</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>7240cf10-ca4a-48f3-b36b-e1f97840c7eb</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>ee131deb-c30c-424c-a065-430985dadc63</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>2cc57eea-64fe-464b-895b-dabc2326a069</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

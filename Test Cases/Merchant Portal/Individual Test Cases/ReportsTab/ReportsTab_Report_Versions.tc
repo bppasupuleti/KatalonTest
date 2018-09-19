@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test verifies functionality of Versions Report</description>
+   <name>ReportsTab_Report_Versions</name>
+   <tag>reports</tag>
+   <comment></comment>
+   <testCaseGuid>e96d3903-df51-49b0-97fd-b20b7eedf5bb</testCaseGuid>
+</TestCaseEntity>

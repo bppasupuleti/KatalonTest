@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Transactions" time="74" tests="8" failures="0" errors="0">
+   <testsuite name="Transactions" tests="8" failures="0" errors="0" time="74" timestamp="2018-09-12 13:49:58" hostname="bpasupuleti - bpasupuleti-macbook.gravity.local" id="Test Suites/Transactions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180912_134957"/>
+         <property name="logFiles" value="/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180912_134957/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bpasupuleti - bpasupuleti-macbook.gravity.local"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.2.148"/>
+         <property name="sessionId" value="871a338d2f182f3fd01b57bdc2b5b906"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate" classname="Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:49:58 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate: Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate
+
+2018-09-12 13:49:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:02 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:02 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:02 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:02 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:03 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:07 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:07 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:07 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 13:50:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:50:07 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary: Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary
+
+2018-09-12 13:50:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:11 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:11 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:11 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:11 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:12 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:15 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:15 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:15 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-12 13:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-12 13:50:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-12 13:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-12 13:50:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-12 13:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-12 13:50:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Total' is present
+
+2018-09-12 13:50:16 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Total' is present
+
+2018-09-12 13:50:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Sale  0.01' is present
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Sale  0.01' is present
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Approval' is present
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Approval' is present
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/button_receiptReceipt Preview' is present
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/button_receiptReceipt Preview' is present
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:50:17 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter: Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:19 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:19 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:19 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-12 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-12 13:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/li_Type' is clicked on
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/li_Type' is clicked on
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/li_Name' is present
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/li_Name' is present
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/li_Name' is clicked on
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/li_Name' is clicked on
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/i_keyboard_arrow_right' is present
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/i_keyboard_arrow_right' is present
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Apply (1)' is clicked on
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Apply (1)' is clicked on
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Type' is present
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Type' is present
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Name' is present
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Name' is present
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 13:50:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:50:26 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset: Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset
+
+2018-09-12 13:50:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:28 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:28 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:29 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:29 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Apply (1)' is clicked on
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Apply (1)' is clicked on
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Transactions/div_Type' located by 'By.xpath: //div[(text() = 'Type' or . = 'Type')]' is not present after '20' second(s)
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Transactions/div_Type' located by 'By.xpath: //div[(text() = 'Type' or . = 'Type')]' is not present after '20' second(s)
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Transactions/div_Name' located by 'By.xpath: //div[(text() = 'Name' or . = 'Name')]' is not present after '20' second(s)
+
+2018-09-12 13:50:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Transactions/div_Name' located by 'By.xpath: //div[(text() = 'Name' or . = 'Name')]' is not present after '20' second(s)
+
+2018-09-12 13:50:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 13:50:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:50:33 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter: Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter
+
+2018-09-12 13:50:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:35 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:35 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:36 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:42 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:42 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/a_Credit Sale' is present
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/a_Credit Sale' is present
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/a_Credit Sale' is clicked on
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/a_Credit Sale' is clicked on
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-12 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-12 13:50:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-12 13:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-12 13:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-12 13:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-12 13:50:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-12 13:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-12 13:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_close' is clicked on
+
+2018-09-12 13:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_close' is clicked on
+
+2018-09-12 13:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Clear' is present
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Clear' is present
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/a_Credit Return' is present
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/a_Credit Return' is present
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/a_Credit Return' is clicked on
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/a_Credit Return' is clicked on
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-12 13:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-12 13:50:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-12 13:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-12 13:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-12 13:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-12 13:50:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Type CreditReturn' is present
+
+2018-09-12 13:50:46 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Type CreditReturn' is present
+
+2018-09-12 13:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_close' is clicked on
+
+2018-09-12 13:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:50:46 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter: Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter
+
+2018-09-12 13:50:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-12 13:50:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:49 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:49 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:50 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:50 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Amount' is clicked on
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Amount' is clicked on
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-12 13:50:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-12 13:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-12 13:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/input_attach_money_form-contro' is clicked on
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/input_attach_money_form-contro' is clicked on
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Transactions/input_attach_money_form-contro'
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Transactions/input_attach_money_form-contro'
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-12 13:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Sale' is present
+
+2018-09-12 13:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Sale' is present
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Transactions/div_10.00' is: '$0.01'
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/div_10.00' is: '$0.01'
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_10.00' is present
+
+2018-09-12 13:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_10.00' is present
+
+2018-09-12 13:50:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 13:50:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:50:55 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView: Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView
+
+2018-09-12 13:50:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:50:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:50:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:50:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:50:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:58 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:50:58 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:58 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:50:58 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:50:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:51:02 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:51:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:51:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-12 13:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-12 13:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/button_Apply (1)' is present
+
+2018-09-12 13:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/button_Apply (1)' is present
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Apply (1)' is clicked on
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Apply (1)' is clicked on
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_Save View' is clicked on
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_Save View' is clicked on
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/alertBox_savetransactionsSave' is present
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/alertBox_savetransactionsSave' is present
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/alertBox_savetransactionsSave' is present
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/alertBox_savetransactionsSave' is present
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/ViewNameTextBox' is present
+
+2018-09-12 13:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/ViewNameTextBox' is present
+
+2018-09-12 13:51:03 - [TEST_STEP][PASSED] - setText: Text 'New View' is set on object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/ViewNameTextBox'
+
+2018-09-12 13:51:04 - [MESSAGE][PASSED] - Text 'New View' is set on object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/ViewNameTextBox'
+
+2018-09-12 13:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/Page_The Maven Project/button_Save' is clicked on
+
+2018-09-12 13:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_The Maven Project/button_Save' is clicked on
+
+2018-09-12 13:51:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_New View' is present
+
+2018-09-12 13:51:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-12 13:51:04 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_New View' is present
+
+2018-09-12 13:51:04 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Transactions/div_Type' located by 'By.xpath: //div[(text() = 'Type' or . = 'Type')]' is not present after '20' second(s)
+
+2018-09-12 13:51:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Transactions/div_Type' located by 'By.xpath: //div[(text() = 'Type' or . = 'Type')]' is not present after '20' second(s)
+
+2018-09-12 13:51:04 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Transactions/div_Name' located by 'By.xpath: //div[(text() = 'Name' or . = 'Name')]' is not present after '20' second(s)
+
+2018-09-12 13:51:04 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Transactions/div_Name' located by 'By.xpath: //div[(text() = 'Name' or . = 'Name')]' is not present after '20' second(s)
+
+2018-09-12 13:51:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 13:51:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality" status="PASSED">
+         <system-out><![CDATA[2018-09-12 13:51:04 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality: Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality
+
+2018-09-12 13:51:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 13:51:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 13:51:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-12 13:51:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-12 13:51:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:51:07 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com/auth/login' successfully
+
+2018-09-12 13:51:07 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:51:07 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email_4920028f-8859-455b'
+
+2018-09-12 13:51:07 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:51:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-12 13:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-12 13:51:08 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:51:12 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-12 13:51:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-12 13:51:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-12 13:51:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-12 13:51:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-12 13:51:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/i_cached_RefreshButton' is present
+
+2018-09-12 13:51:13 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_The Maven Project/i_cached_RefreshButton' is present
+
+2018-09-12 13:51:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/Page_The Maven Project/i_cached_RefreshButton' is clicked on
+
+2018-09-12 13:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_The Maven Project/i_cached_RefreshButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-12 13:49:58 - [TEST_SUITE][PASSED] - Transactions: Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

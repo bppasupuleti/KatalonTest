@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Tries to create a user using email address of an existing user, and verifies user is NOT successfully created.</description>
+   <name>Users_AddNewUser_DuplicateEmail</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>d2392e7a-e59f-474b-b37f-638f55fdfcfb</testCaseGuid>
+</TestCaseEntity>

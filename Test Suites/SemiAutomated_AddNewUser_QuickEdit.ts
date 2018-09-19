@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Suite of tests that are semi automated.  Human interaction is necessary for test completion.  These are for logging in, or testing other functionality where the user is not to be deleted.</description>
+   <name>SemiAutomated_AddNewUser_QuickEdit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-04T09:41:58</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>f829172b-db4a-49fa-bdf7-7ae241dd6aec</testSuiteGuid>
+   <testCaseLink>
+      <guid>dd16a740-c10e-4a26-8da6-3ee944a21891</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/AddNewUser/Users_AddNewUser_OrgAdmin</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c16da873-7863-4198-8e3b-d399278db1c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec7cd089-3c93-47b2-8267-08031d7a7722</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f4fd4a86-c104-4f91-8cd0-7e4f8d95b485</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/QuickEdit/Users_OrgAdmin_QuickEdit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee3f9747-eca8-46e9-bec6-66f07fc8f706</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/AddNewUser/Users_AddNewUser_OrgUser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>79110c18-0033-40a2-9f82-9960b61d7346</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53293192-dcce-4fbb-b4f7-8572cbf4fe0e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5c298419-381f-4134-be27-adc66cb0adc8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/QuickEdit/Users_OrgUser_QuickEdit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b2b1fb7-5263-4e1e-9b69-649a4e0acdc6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/AddNewUser/Users_AddNewUser_StaffAdmin</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b7a6787a-eb76-4008-b73a-ec009586d51a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7fad843d-a789-401b-ac1f-bbe4b42c781e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8be4650d-16a8-4535-8c80-8510056966bb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/QuickEdit/Users_StaffAdmin_QuickEdit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ebf5ece-27b9-4c30-a0e6-118f78f20ac0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/AddNewUser/Users_AddNewUser_StaffUser</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>afc4ae1c-1d33-4ba5-9807-6f7eda4ba4ec</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b14bfb22-6ab5-47b4-adf6-adf824b92538</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2fbc0d56-bf7a-45d1-9a07-cb4b0ced75ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/Users/SemiAutomated/QuickEdit/Users_StaffUser_QuickEdit</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

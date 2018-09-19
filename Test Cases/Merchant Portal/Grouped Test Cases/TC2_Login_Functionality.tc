@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Login functionality of Merchant Portal
+
+Functionality Tested:
+- Admin user login
+- Admin and User user login
+- Cloud Terminal user login
+- emergepay Settings user login
+- Super user login
+- Terminal Configuration user login
+- Normal user login
+- Forgot Password with an Invalid email address
+- Forgot Password with an Invalid username
+- Invalid Username and/or Password
+
+Expected results:
+Various users can login and logout as expected without any issues</description>
+   <name>TC2_Login_Functionality</name>
+   <tag></tag>
+   <comment>Check everything on the Dashboard while logged in under different users
+Given that the user has logged into Merchant Portal
+Login_Admin test was successful
+Login_User test was successful
+Login_CloudTerminal test was successful
+Login_TerminalConfiguration test was successful
+Loging_emergepaySettings test was successful
+Login_Admin_User (both selected) test was successful
+Login_SuperUser test was successful
+Login_ForgotPassword_InvalidEmail test was successful
+Login_ForgotPassword_InvalidUsername test was successful
+Login_Invalid_Username_Password test was successful
+ALL LOGIN TESTS WERE COMPLETED SUCCESSFULLY!!!</comment>
+   <testCaseGuid>224459bd-ca47-4870-8671-4006a54c5897</testCaseGuid>
+</TestCaseEntity>

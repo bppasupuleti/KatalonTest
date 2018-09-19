@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_featured_play_listAlldelete_</name>
+   <tag></tag>
+   <elementGuidId>4f6439ec-a7ca-4b66-bd5a-c481ddfb9695</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>featured_play_listAlldelete_forever</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;mp-page fixed-table&quot;]/div[@class=&quot;mp-page-body&quot;]/div[@class=&quot;mp-submenu&quot;]/div[@class=&quot;mp-submenu-content&quot;]/ul[@class=&quot;mp-submenu-links&quot;]/li[2]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - attempts to create a username, adding a first name, last name and password, but leaves the username field blank.</description>
+   <name>UsersTab_Username_required</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>dad03a8a-13e2-42a0-acba-18a6d8e6338c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Successfully adds a new user with all roles, and then deletes the user to clean up after itself.</description>
+   <name>Users_AddNewUser_VerifyMiscFields2</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>ee6a718a-58b5-49a4-929b-841702650fed</testCaseGuid>
+</TestCaseEntity>

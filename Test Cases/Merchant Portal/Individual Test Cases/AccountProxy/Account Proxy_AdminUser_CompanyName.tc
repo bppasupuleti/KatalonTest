@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test verifies Filter functionality of Start and End Dates of Transactions Report</description>
+   <name>Account Proxy_AdminUser_CompanyName</name>
+   <tag>reports</tag>
+   <comment></comment>
+   <testCaseGuid>25670225-af26-4453-8d57-27797562172e</testCaseGuid>
+   <variable>
+      <defaultValue>['Date', 'ProcessorTransactionId', 'Approval', 'Type', 'Amount', 'TransactionReference', 'BillingName', 'Card', 'Last4', 'Cashier', 'Location', 'EntryType']</defaultValue>
+      <description>Column headings in Transaction table</description>
+      <id>b5228e2e-e6cc-4c70-8c2d-2d51ed125e70</id>
+      <masked>false</masked>
+      <name>Transactions</name>
+   </variable>
+   <variable>
+      <defaultValue>['Count', 'All Cards', 'All CC', 'DB', 'VS/MC/DC', 'AX', 'VS', 'MC', 'DC', 'JC', 'CU', 'XX', 'Sales', 'Returns', 'Totals']</defaultValue>
+      <description>Column headings in Card Totals Summary table</description>
+      <id>e1617dda-c410-4b1e-90c6-c921f0dc4842</id>
+      <masked>false</masked>
+      <name>Card_Totals_Summary</name>
+   </variable>
+</TestCaseEntity>

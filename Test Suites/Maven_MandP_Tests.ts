@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Maven regression tests</description>
+   <name>Maven_MandP_Tests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-05T14:12:01</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>993745e8-e789-438f-8543-3493629758e7</testSuiteGuid>
+   <testCaseLink>
+      <guid>e9e92254-7739-4407-84d0-42120e59d8c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_CreateOrganization_Company</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>af06d35d-337b-443e-be5d-a2c09f9222db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_CreateOrganization_Company_ParentOptional</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1381316d-3e9b-4da0-b1ee-3dbf026f77f5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e4887cc5-37d3-4e68-b2d7-9fec9e4d6aa9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f7326a4-491f-4155-b383-30e9324938b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_CreateOrganization_Location</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81f1ea73-2c02-47c7-99c4-e6fee7a54da6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c29f6e22-d258-45ff-bc6e-9158dbad7ef1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>264e21fc-6bdd-4b8b-9e50-5dae824f0866</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_CreateOrganization_Partner</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6083c914-eb24-42e2-859b-626af34f3854</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d9afee94-a403-486f-9444-0df28fe6380f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dede58c7-d1df-4228-88ba-39c11fcac6a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_CreateOrganization_SaveWithoutRequiredFields</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3500979c-9d2c-4500-af68-08a2fd93f70e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0eb46cd3-b4ce-4562-bb04-cfec348b9902</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eceb15c2-5ee6-4595-b87e-3050c1db6f9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_FilterColumns</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b09981a-fbaa-4903-9e56-ec740b16ac5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_FilterGroups</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c6ac3aa0-90c9-4769-ad61-9b401a6fbb01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_Merchant_Info_Summary</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b09dcf61-331e-4b6e-97bf-b62fa4d0e296</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f5ffb0a1-efe8-4273-8d5f-46ba3e4101f2</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f95134c3-4d67-4230-80a0-4906127ca085</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_OrgName_Search</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8f7bbdb-7fef-4079-a4bf-a0a82c4967f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_SaveView</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee92428e-19fd-44b9-ba7b-4744db694db3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_SaveView_OpenSubmenu</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cc82b1c3-68c0-4276-8c6d-cd01ac0c16ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_CopyOrgIdToClipboard</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>63f0ad0f-1d03-441e-bd8f-45d23b75621c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49bf2c4b-19a1-4148-b7e9-229306d362ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_QuickView_Merchant</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ba96bfe8-cc1f-4c56-8013-98560496d6ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da5e064d-8d8f-41f1-9885-d545d946e60c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a837852-0a21-4f9b-b1b9-93dcce34503a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_QuickView_Merchant_Details</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dcac9f24-1742-4c95-863b-af84edd55a12</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d8323b24-f7cb-4a0b-8fd4-ea73b67eb5ab</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fecc83cc-46b6-417d-b2f6-9f1c60dd5f1a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Maven/Individual Test Cases/MerchantsAndPartners/MandP_OrgName_EditOrg</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

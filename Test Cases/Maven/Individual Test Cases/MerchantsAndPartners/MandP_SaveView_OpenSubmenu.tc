@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Successfully tests the Save View Open Submenu functionality.</description>
+   <name>MandP_SaveView_OpenSubmenu</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>a4728596-82b4-4fc8-b035-b2ffc0ddbfd6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Name</name>
+   <tag></tag>
+   <elementGuidId>94336bf4-0a6f-40a1-8c35-be181d43eb02</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper sub-nav-closed&quot;]/div[@class=&quot;mp-page fixed-table&quot;]/div[@class=&quot;mp-page-body&quot;]/div[@class=&quot;mp-content&quot;]/div[@class=&quot;mp-table-viewport mp-merchant-table&quot;]/div[@class=&quot;mp-table&quot;]/div[@class=&quot;mp-table-header&quot;]/div[@class=&quot;mp-table-row&quot;]/div[@class=&quot;mp-table-data active sortable ASC name&quot;]/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

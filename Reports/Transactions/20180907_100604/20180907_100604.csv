@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Transactions,Chrome 68.0.3440.106,,2018-09-07 10:06:05,2018-09-07 10:06:10,5.281s,FAILED
+,,,,,,
+Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate,Chrome 68.0.3440.106,,2018-09-07 10:06:05,2018-09-07 10:06:10,4.856s,FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-09-07 10:06:05,2018-09-07 10:06:07,1.679s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-09-07 10:06:07,2018-09-07 10:06:09,1.774s,PASSED
+setText,Chrome 68.0.3440.106,,2018-09-07 10:06:09,2018-09-07 10:06:10,1.180s,FAILED

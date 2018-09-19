@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_email</name>
+   <tag></tag>
+   <elementGuidId>653121ee-65e4-4b48-b0c4-6820e107436e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>material-icons</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;auth-page&quot;]/div[@class=&quot;auth-page-content&quot;]/div[@class=&quot;auth-form-container forgot&quot;]/div[1]/form[@class=&quot;auth-form&quot;]/div[@class=&quot;form-group&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]/i[@class=&quot;material-icons&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login test case for Tester 1, which is a Super User</description>
+   <name>Login_SuperUser</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>14034fc6-f1af-4488-b65f-5fafa6677004</testCaseGuid>
+   <variable>
+      <defaultValue>'tester1'</defaultValue>
+      <description></description>
+      <id>863c312e-9eac-4fbe-9517-a3dd18a22aaa</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

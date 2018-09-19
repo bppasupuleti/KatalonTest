@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login test case for an Staff Admin</description>
+   <name>Login_StaffAdmin</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>2d9b80cf-f91f-43d4-82c8-69037ccbe5ad</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.G_Company</defaultValue>
+      <description>Default company name</description>
+      <id>5bafd7e2-d4cb-4346-9275-10dddc1a7fb1</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

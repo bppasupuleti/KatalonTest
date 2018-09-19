@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Successfully checks Merchant Info Summary information.</description>
+   <name>MandP_Merchant_Info_Summary</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>cb851eff-079c-4c7a-8fab-befb1802e2dd</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>b09dcf61-331e-4b6e-97bf-b62fa4d0e296</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>f5ffb0a1-efe8-4273-8d5f-46ba3e4101f2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

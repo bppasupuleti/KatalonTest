@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Searches for an Org Name without running into any errors.</description>
+   <name>MandP_OrgName_Search</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>d06a7aa9-50be-4ccb-a4af-61296292c017</testCaseGuid>
+</TestCaseEntity>

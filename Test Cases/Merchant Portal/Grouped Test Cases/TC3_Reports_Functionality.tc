@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can select all options of the Users tab sucessfully.
+
+Steps:
+- Check all the password combinations
+- Check all the username combinations
+- Check logout/login functionality
+
+Expected results:
+Users tab functionality works correctly</description>
+   <name>TC3_Reports_Functionality</name>
+   <tag></tag>
+   <comment>Check everything on the Reports tab of Merchant Portal
+'Report - Transactions' test was successful
+'Report - Gift Transactions' test was successful
+'Report - Card Totals' test was successful
+'Report - All Activity' test was successful
+'Report - Cashier' test was successful
+'Report - Location' test was successful
+'Report - Versions' test was successful
+ALL REPORTS TAB TESTS WERE COMPLETED SUCCESSFULLY!!!</comment>
+   <testCaseGuid>605b7b9a-4eee-41d9-9a1e-04815bf3a29e</testCaseGuid>
+</TestCaseEntity>

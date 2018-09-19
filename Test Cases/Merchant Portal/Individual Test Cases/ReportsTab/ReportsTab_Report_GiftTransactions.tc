@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test verifies Filter functionality of Start and End Dates of Gift Transactions Report</description>
+   <name>ReportsTab_Report_GiftTransactions</name>
+   <tag>reports</tag>
+   <comment></comment>
+   <testCaseGuid>c78c374c-0083-47b6-8f08-5db0d0bc163c</testCaseGuid>
+</TestCaseEntity>

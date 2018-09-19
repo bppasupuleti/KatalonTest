@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login test case for Tester 3, which is a normal User</description>
+   <name>Login_User</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>aeea2c42-debe-410e-9582-c3ce040f96d0</testCaseGuid>
+</TestCaseEntity>

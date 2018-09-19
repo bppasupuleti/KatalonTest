@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with Super user role, and verifies that user can be selected without any errors.</description>
+   <name>UsersTab_AddNewUser_All</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>ab49c7a6-a3bb-455b-ad85-0d9ec6afcd84</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>13345491-419e-4249-881f-a7ea24112724</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>5d5d871e-1f68-4cec-a41b-6f86e8d22a9d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

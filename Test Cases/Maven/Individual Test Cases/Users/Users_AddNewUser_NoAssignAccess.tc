@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Tries to add a new user without assigning access roles, verifies user is NOT created.</description>
+   <name>Users_AddNewUser_NoAssignAccess</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>3550aa18-f1b4-4910-b3f2-164192adb8b2</testCaseGuid>
+</TestCaseEntity>

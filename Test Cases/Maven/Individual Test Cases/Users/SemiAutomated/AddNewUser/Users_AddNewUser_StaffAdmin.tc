@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with Staff Admin role.</description>
+   <name>Users_AddNewUser_StaffAdmin</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>b9868d08-44bf-4d65-b63c-04bdcac55164</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>b7a6787a-eb76-4008-b73a-ec009586d51a</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>7fad843d-a789-401b-ac1f-bbe4b42c781e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

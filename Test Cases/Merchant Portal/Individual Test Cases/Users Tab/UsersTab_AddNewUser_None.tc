@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with no roles selected, and verifies that user can be selected without any errors.</description>
+   <name>UsersTab_AddNewUser_None</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>abd32651-6f78-4790-af08-0deb55bcc578</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>43fddde4-0ae3-4165-bda5-a5526625f0f8</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>2d8218b4-2692-4d4f-a52d-ff8e264fe17c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

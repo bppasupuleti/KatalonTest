@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can select all options of the Users tab sucessfully.
+
+Steps:
+- Check all the password combinations
+- Check all the username combinations
+- Check logout/login functionality
+
+Expected results:
+Users tab functionality works correctly</description>
+   <name>TC5_Dashboard_Functionality</name>
+   <tag></tag>
+   <comment>Check everything on the Users tab including various passwords and usernames
+'Passwords not matching' test was successful
+'Password - numbers only' test was successful
+'Password - alphanumeric only' test was successful
+'Password - duplicate' test was successful
+'Password - username required' test was successful
+'AddNewUser - Admin' test was successful
+'AddNewUser - AdminUser' test was successful
+'AddNewUser - emergepay Settings' test was successful
+'AddNewUser - No role' test was successful
+'AddNewUser - All' test was successful
+'AddNewUser - Terminal Configuration' test was successful
+'AddNewUser - User' test was successful
+'AddNewUser - Cloud Terminal' test was successful
+'Password - pci compliant' test was successful
+ALL USER TAB TESTS WERE COMPLETED SUCCESSFULLY!!!</comment>
+   <testCaseGuid>11678948-9d38-4738-8697-5fdc6dc0b807</testCaseGuid>
+</TestCaseEntity>

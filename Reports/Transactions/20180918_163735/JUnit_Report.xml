@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Transactions" time="230" tests="9" failures="2" errors="1">
+   <testsuite name="Transactions" tests="9" failures="2" errors="1" time="230" timestamp="2018-09-18 16:37:37" hostname="bpasupuleti - 192.168.1.9" id="Test Suites/Transactions">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180918_163735"/>
+         <property name="logFiles" value="/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180918_163735/execution0.log"/>
+         <property name="attachments" value="/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180918_163735/1537313980534.png, /Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180918_163735/1537314068599.png"/>
+         <property name="hostName" value="bpasupuleti - 192.168.1.9"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="481108910c4114d192a07d67693103e1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate" classname="Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:37:37 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate: Test Cases/Maven/Individual Test Cases/Transactions/ClickOnTransactionsandValidate
+
+2018-09-18 16:37:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:37:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:37:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:37:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:37:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Merchant Portal - Users tab/div_tester1' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Merchant Portal - Users tab/div_tester1' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Merchant Portal - Users tab/div_tester1' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Merchant Portal - Users tab/div_tester1' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Merchant Portal - Users tab/div_tester1' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Merchant Portal - Users tab/div_tester1' does not exist
+
+2018-09-18 16:37:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company' does not exist
+
+2018-09-18 16:37:41 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:37:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:37:41 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:37:41 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:37:41 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:37:41 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:37:42 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:37:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:37:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:37:45 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:37:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:37:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:37:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:37:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:37:46 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary: Test Cases/Maven/Individual Test Cases/Transactions/VerifyApprovalCodeinTransactionSummary
+
+2018-09-18 16:37:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:37:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:37:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:37:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:37:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:37:49 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:37:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:37:49 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:37:49 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:37:49 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:37:49 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:37:49 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:37:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:37:49 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:37:52 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:37:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:37:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:37:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:37:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:37:53 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:37:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Total' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Total' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Sale  0.01' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Sale  0.01' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Approval' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Approval' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/button_receiptReceipt Preview' is present
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/button_receiptReceipt Preview' is present
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:37:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:37:54 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter: Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilter
+
+2018-09-18 16:37:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:37:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:37:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:37:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:37:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:37:57 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:37:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:37:57 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:37:57 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:37:58 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:37:58 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:37:58 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:37:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:37:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:01 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/li_Type' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/li_Type' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/li_Name' is present
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/li_Name' is present
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/li_Name' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/li_Name' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/i_keyboard_arrow_right' is present
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/i_keyboard_arrow_right' is present
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_keyboard_arrow_right' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Apply' is clicked on
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Apply' is clicked on
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Type' is present
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Type' is present
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Name' is present
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Name' is present
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:38:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:38:02 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset: Test Cases/Maven/Individual Test Cases/Transactions/VerifyColumnFilterReset
+
+2018-09-18 16:38:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:38:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:38:03 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:38:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:38:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:07 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:07 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:07 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:07 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:07 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:07 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:10 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Apply' is clicked on
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Apply' is clicked on
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Transactions/div_Type' located by 'By.xpath: //div[(text() = 'Type' or . = 'Type')]' is not present after '20' second(s)
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Transactions/div_Type' located by 'By.xpath: //div[(text() = 'Type' or . = 'Type')]' is not present after '20' second(s)
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Transactions/div_Name' located by 'By.xpath: //div[(text() = 'Name' or . = 'Name')]' is not present after '20' second(s)
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Transactions/div_Name' located by 'By.xpath: //div[(text() = 'Name' or . = 'Name')]' is not present after '20' second(s)
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:38:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:38:11 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter: Test Cases/Maven/Individual Test Cases/Transactions/VerifyTypeFilter
+
+2018-09-18 16:38:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:38:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:38:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:38:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:38:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:14 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:14 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:14 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:14 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:14 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:14 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/a_Credit Sale' is present
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/a_Credit Sale' is present
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/a_Credit Sale' is clicked on
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/a_Credit Sale' is clicked on
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-18 16:38:18 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-18 16:38:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Type CreditSale' is present
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_close' is clicked on
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_close' is clicked on
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Type' is clicked on
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Clear' is present
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Clear' is present
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Clear' is clicked on
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/a_Credit Return' is present
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/a_Credit Return' is present
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/a_Credit Return' is clicked on
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/a_Credit Return' is clicked on
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Apply' is present
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-18 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Apply' is clicked on
+
+2018-09-18 16:38:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-18 16:38:20 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Approvalalert' is present
+
+2018-09-18 16:38:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-18 16:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/div_Approvalalert' is clicked on
+
+2018-09-18 16:38:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Type CreditReturn' is present
+
+2018-09-18 16:38:21 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Type CreditReturn' is present
+
+2018-09-18 16:38:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_close' is clicked on
+
+2018-09-18 16:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_close' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:38:21 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter: Test Cases/Maven/Individual Test Cases/Transactions/VerifyAmountFilter
+
+2018-09-18 16:38:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:38:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 16:38:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:38:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:38:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:38:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:24 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:24 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:24 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:24 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:24 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:24 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Amount' is clicked on
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Amount' is clicked on
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-18 16:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/input_attach_money_form-contro' is clicked on
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/input_attach_money_form-contro' is clicked on
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Transactions/input_attach_money_form-contro'
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Transactions/input_attach_money_form-contro'
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-18 16:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_chevron_left_filterByAmo' is present
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/input_chevron_left_filterByAmo' is clicked on
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_Sale' is present
+
+2018-09-18 16:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Sale' is present
+
+2018-09-18 16:38:28 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Transactions/div_10.00' is: '$0.01'
+
+2018-09-18 16:38:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/div_10.00' is: '$0.01'
+
+2018-09-18 16:38:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/div_10.00' is present
+
+2018-09-18 16:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_10.00' is present
+
+2018-09-18 16:38:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:38:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536692317619.run(Script1536692317619.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:38:29 - [TEST_CASE][FAILED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView: Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536692317619.run(Script1536692317619.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:38:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:38:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:38:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:38:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:38:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:32 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:38:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:38:32 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:32 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:38:32 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:32 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:38:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:38:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:36 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:38:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:36 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:38:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:38:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-18 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Column' is clicked on
+
+2018-09-18 16:38:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-18 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Reset to Default' is clicked on
+
+2018-09-18 16:38:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/button_Apply' is present
+
+2018-09-18 16:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/button_Apply' is present
+
+2018-09-18 16:38:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/button_Apply' is clicked on
+
+2018-09-18 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/button_Apply' is clicked on
+
+2018-09-18 16:38:37 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-09-18 16:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-09-18 16:38:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/ViewNameTextBox' is not present after 30 second(s)
+
+2018-09-18 16:39:09 - [MESSAGE][WARNING] - Object 'Object Repository/Transactions/ViewNameTextBox' is not present after 30 second(s)
+
+2018-09-18 16:39:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+
+2018-09-18 16:39:41 - [MESSAGE][FAILED] - Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+[[ATTACHMENT|/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180918_163735/1537313980534.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:38:29 - [TEST_CASE][FAILED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView: Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536692317619.run(Script1536692317619.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:39:41 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality: Test Cases/Maven/Individual Test Cases/Transactions/VerifyRefreshFunctionality
+
+2018-09-18 16:39:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:39:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 16:39:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:39:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:39:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:39:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:39:44 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:39:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:39:44 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:39:44 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:39:44 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:39:44 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:39:44 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:39:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:39:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:39:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:39:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:39:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/i_cached_RefreshButton' is present
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/i_cached_RefreshButton' is present
+
+2018-09-18 16:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_cached_RefreshButton' is clicked on
+
+2018-09-18 16:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_cached_RefreshButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_TransactionSummaryDetails" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_TransactionSummaryDetails" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:39:49 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_TransactionSummaryDetails: Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_TransactionSummaryDetails
+
+2018-09-18 16:39:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:39:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 16:39:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:39:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:39:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:39:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:39:52 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:39:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:39:52 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:39:53 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:39:53 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:39:53 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:39:53 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:39:53 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:39:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:39:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:39:56 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:39:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:39:56 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:39:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:39:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:39:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:39:56 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:39:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:39:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Transaction Summary' is present
+
+2018-09-18 16:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Transaction Summary' is present
+
+2018-09-18 16:39:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transaction Summary' is clicked on
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transaction Summary' is clicked on
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Total' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Total' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/h4_Transaction summary' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-09-18 16:39:58 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Approval' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Approval' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/button_receiptReceipt Preview' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/button_receiptReceipt Preview' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Result Detail' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Location Info' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_Go to' is present
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_Go to' is present
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_GoToReceiptSummary" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_GoToReceiptSummary" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Transactions/MonitorStaging_Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/MonitorStaging_Address' located by 'By.xpath: id(&quot;app&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;mp-page fixed-table&quot;]/div[@class=&quot;mp-page-body&quot;]/div[@class=&quot;mp-content&quot;]/div[@class=&quot;mp-tab-body&quot;]/div[@class=&quot;mp-content-section&quot;]/div[@class=&quot;mp-content-block col-sm-10&quot;]/div[@class=&quot;mp-block-body&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;txn-location-header mb-4&quot;]/div[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536862551483.run(Script1536862551483.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:39:58 - [TEST_CASE][FAILED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_GoToReceiptSummary: Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_GoToReceiptSummary FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Transactions/MonitorStaging_Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/MonitorStaging_Address' located by 'By.xpath: id("app")/div[@class="wrapper"]/div[@class="mp-page fixed-table"]/div[@class="mp-page-body"]/div[@class="mp-content"]/div[@class="mp-tab-body"]/div[@class="mp-content-section"]/div[@class="mp-content-block col-sm-10"]/div[@class="mp-block-body"]/div[@class="col"]/div[@class="txn-location-header mb-4"]/div[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536862551483.run(Script1536862551483.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:39:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:39:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:39:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:39:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:40:00 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:40:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:40:00 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:40:01 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:40:01 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:40:01 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:40:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:40:04 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:40:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:40:04 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:40:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:40:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:40:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Go to Receipt Summary' is present
+
+2018-09-18 16:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Go to Receipt Summary' is present
+
+2018-09-18 16:40:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Go to Receipt Summary' is clicked on
+
+2018-09-18 16:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Go to Receipt Summary' is clicked on
+
+2018-09-18 16:40:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/b_Monitoring Staging' is not present after 30 second(s)
+
+2018-09-18 16:40:37 - [MESSAGE][WARNING] - Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/b_Monitoring Staging' is not present after 30 second(s)
+
+2018-09-18 16:40:37 - [TEST_STEP][FAILED] - Statement - addressValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/MonitorStaging_Address), STOP_ON_FAILURE): Unable to get text of object 'Object Repository/Transactions/MonitorStaging_Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/MonitorStaging_Address' located by 'By.xpath: id("app")/div[@class="wrapper"]/div[@class="mp-page fixed-table"]/div[@class="mp-page-body"]/div[@class="mp-content"]/div[@class="mp-tab-body"]/div[@class="mp-content-section"]/div[@class="mp-content-block col-sm-10"]/div[@class="mp-block-body"]/div[@class="col"]/div[@class="txn-location-header mb-4"]/div[1]' not found)
+
+2018-09-18 16:41:09 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Transactions/MonitorStaging_Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/MonitorStaging_Address' located by 'By.xpath: id("app")/div[@class="wrapper"]/div[@class="mp-page fixed-table"]/div[@class="mp-page-body"]/div[@class="mp-content"]/div[@class="mp-tab-body"]/div[@class="mp-content-section"]/div[@class="mp-content-block col-sm-10"]/div[@class="mp-block-body"]/div[@class="col"]/div[@class="txn-location-header mb-4"]/div[1]' not found)
+[[ATTACHMENT|/Users/bpasupuleti/Katalon Studio/MavenTransactions/Reports/Transactions/20180918_163735/1537314068599.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:39:58 - [TEST_CASE][FAILED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_GoToReceiptSummary: Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLines_GoToReceiptSummary FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Transactions/MonitorStaging_Address' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/MonitorStaging_Address' located by 'By.xpath: id("app")/div[@class="wrapper"]/div[@class="mp-page fixed-table"]/div[@class="mp-page-body"]/div[@class="mp-content"]/div[@class="mp-tab-body"]/div[@class="mp-content-section"]/div[@class="mp-content-block col-sm-10"]/div[@class="mp-block-body"]/div[@class="col"]/div[@class="txn-location-header mb-4"]/div[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:874)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$13.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536862551483.run(Script1536862551483.groovy:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails" status="ERROR">
+         <error type="ERROR" message="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: err for class: Script1536873397068
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1536873397068.run(Script1536873397068.groovy:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-18 16:41:09 - [TEST_CASE][ERROR] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails: Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: err for class: Script1536873397068
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1536873397068.run(Script1536873397068.groovy:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-18 16:41:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:41:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 16:41:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:41:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:41:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:41:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:41:12 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:41:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:41:12 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:41:12 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:41:12 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:41:12 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:41:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:41:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:41:16 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:41:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:41:16 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:41:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:41:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:41:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:41:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:41:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/span_Go_to_Location_Details' is present
+
+2018-09-18 16:41:18 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_Go_to_Location_Details' is present
+
+2018-09-18 16:41:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Go_to_Location_Details' is clicked on
+
+2018-09-18 16:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Go_to_Location_Details' is clicked on
+
+2018-09-18 16:41:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/div_Transaction_Location_Info' is present
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/div_Transaction_Location_Info' is present
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - LocationID = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/p_Location_ID)): Text of object 'Object Repository/Transactions/p_Location_ID' is: 'Location ID: NC3-3DL-NRQ'
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/p_Location_ID' is: 'Location ID: NC3-3DL-NRQ'
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - If (LocationID == ""): null
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_IP Address' is present
+
+2018-09-18 16:41:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_IP Address' is present
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - sourceData = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/p_Source_Emergepay), STOP_ON_FAILURE): Text of object 'Object Repository/Transactions/p_Source_Emergepay' is: 'Source: emergepay'
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/p_Source_Emergepay' is: 'Source: emergepay'
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - If (sourceData == ""): null
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_ComputerName' is present
+
+2018-09-18 16:41:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_ComputerName' is present
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/small_CIPSoftware_Version' is present
+
+2018-09-18 16:41:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/small_CIPSoftware_Version' is present
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - computerDateTIME = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/p_Computer_Date_Time_InvalidDate), STOP_ON_FAILURE): Text of object 'Object Repository/Transactions/p_Computer_Date_Time_InvalidDate' is: 'Computer Date Time: Invalid date'
+
+2018-09-18 16:41:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/p_Computer_Date_Time_InvalidDate' is: 'Computer Date Time: Invalid date'
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - If (computerDateTIME.contains("Invalid date")): null
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - println("The value of the computer Date Time should not be invalid"): null
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - Statement - err: null]]></system-out>
+         <system-err><![CDATA[2018-09-18 16:41:09 - [TEST_CASE][ERROR] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails: Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToLocationDetails FAILED because (of) (Stack trace: groovy.lang.MissingPropertyException: No such property: err for class: Script1536873397068
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
+	at org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:307)
+	at Script1536873397068.run(Script1536873397068.groovy:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToOtherDetails" classname="Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToOtherDetails" status="PASSED">
+         <system-out><![CDATA[2018-09-18 16:41:19 - [TEST_CASE][PASSED] - Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToOtherDetails: Test Cases/Maven/Individual Test Cases/Transactions/VerifyVerticalLine_GoToOtherDetails
+
+2018-09-18 16:41:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-18 16:41:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-18 16:41:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-18 16:41:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-18 16:41:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-18 16:41:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:41:22 - [MESSAGE][PASSED] - Navigate to 'https://maven-staging.gravity-aws.com' successfully
+
+2018-09-18 16:41:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:41:22 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/input_email' is present
+
+2018-09-18 16:41:22 - [TEST_STEP][PASSED] - setText: Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:41:22 - [MESSAGE][PASSED] - Text 'bpasupuleti@gravitypayments.com' is set on object 'Object Repository/Transactions/input_email'
+
+2018-09-18 16:41:22 - [TEST_STEP][PASSED] - setText: Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:41:22 - [MESSAGE][PASSED] - Text 'Gravity@123' is set on object 'Object Repository/Maven Login/input_password'
+
+2018-09-18 16:41:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Login exit_to_app' is clicked on
+
+2018-09-18 16:41:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - All options with value 'development' are selected in object 'Object Repository/Transactions/select_DevelopmentProduction'  using regular expression
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/select_DevelopmentProduction' is present
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_Transactions' is clicked on
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/span_All Transactions' is clicked on
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/span_All Transactions' is present
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/i_more_verticleLines' is clicked on
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_Go to Other Details' is present
+
+2018-09-18 16:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_Go to Other Details' is present
+
+2018-09-18 16:41:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_Go to Other Details' is clicked on
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Transactions/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/Page_The Maven Project/span_Go to Other Details' is clicked on
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Transactions/p_TransactionID' is present
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_TransactionID' is present
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - Statement - DateTIme = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/p_DateTime)): Text of object 'Object Repository/Transactions/p_DateTime' is: 'Date/Time: 9/18/18 - 04:38 PM'
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/p_DateTime' is: 'Date/Time: 9/18/18 - 04:38 PM'
+
+2018-09-18 16:41:27 - [TEST_STEP][NOT_RUN] - Statement - If (DateTime == ""): NOT_RUN: Statement - If (DateTime == "")
+
+2018-09-18 16:41:27 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (DateTime == "")
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_ReferenceNumber' is present
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_ReferenceNumber' is present
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - Statement - refernceNumber = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/p_ReferenceNumber), STOP_ON_FAILURE): Text of object 'Object Repository/Transactions/p_ReferenceNumber' is: 'Reference Number:'
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/p_ReferenceNumber' is: 'Reference Number:'
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - Statement - If (refernceNumber == ""): null
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_Transaction_Type' is present
+
+2018-09-18 16:41:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_Transaction_Type' is present
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - Statement - transactionType = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Transactions/p_Transaction_Type), STOP_ON_FAILURE): Text of object 'Object Repository/Transactions/p_Transaction_Type' is: 'Transaction Type: CreditReturn'
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Transactions/p_Transaction_Type' is: 'Transaction Type: CreditReturn'
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - Statement - If (transactionType == ""): null
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Transactions/p_ApprovalNumberResult' is present
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Object 'Object Repository/Transactions/p_ApprovalNumberResult' is present
+
+2018-09-18 16:41:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-18 16:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-18 16:37:37 - [TEST_SUITE][FAILED] - Transactions: Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536692317619.run(Script1536692317619.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-18 16:37:37 - [TEST_SUITE][FAILED] - Transactions: Test Cases/Maven/Individual Test Cases/Transactions/VerifySaveView FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'New View' of object 'Object Repository/Transactions/ViewNameTextBox' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Transactions/ViewNameTextBox' located by 'By.xpath: //input[@type = 'text' and @placeholder = 'Enter a name']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1536692317619.run(Script1536692317619.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537313856431.run(TempTestSuite1537313856431.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

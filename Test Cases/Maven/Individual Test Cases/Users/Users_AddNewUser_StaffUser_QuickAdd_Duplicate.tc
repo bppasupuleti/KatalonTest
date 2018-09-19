@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Successfully adds a new user with StaffUser role using QuickAdd functionality and deletes user when testing complete to clean up.</description>
+   <name>Users_AddNewUser_StaffUser_QuickAdd_Duplicate</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>61e9ddef-16ed-42af-8b96-43766aff5f02</testCaseGuid>
+</TestCaseEntity>

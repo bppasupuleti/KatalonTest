@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Tries to create a new user without having information in all required fields.</description>
+   <name>Users_AddNewUser_OrgUser_SaveWithoutRequiredFields</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>23155336-0ed3-41d7-be1c-77b9bb0c28d1</testCaseGuid>
+</TestCaseEntity>

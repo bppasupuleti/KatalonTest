@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Searches using the Users List search functionality.</description>
+   <name>Users_UsersList_Search</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>6579dae9-21b3-48e4-a1e7-4ccd77dda7e3</testCaseGuid>
+</TestCaseEntity>

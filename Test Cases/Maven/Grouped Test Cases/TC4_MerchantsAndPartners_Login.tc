@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify functionality of Merchants and Partners in Maven.
+
+Steps:
+- Create a new organization selecting Company
+- Create a new organization with optional parent filled in
+- Create a new organization selecting Location
+- Create a new organization selecting Partner
+- Try to create a new organization without all required fields being filled in
+- Filter by columns and make sure functionality works
+- Filter by Groups and make sure functionality works
+- Merchant Info Summary looks ok with fields automatically filled out correctly
+- Verify searching by OrgName functionality works
+- Verify you can Save a view and functionality works correctly
+- Make sure after you Save a view, you can open the submenu and everything looks good
+
+Expected results:
+Merchants and Partners functionality works correctly</description>
+   <name>TC4_MerchantsAndPartners_Login</name>
+   <tag></tag>
+   <comment>MandP - Create a new organization
+MandP - Create a new organization with optional parent filled in
+MandP - Create a new organization selecting Location
+MandP - Create a new organization selecting Partner
+MandP - Try to create a new organization without all required fields being filled in
+MandP - Filter by columns and make sure functionality works
+MandP - Filter by Groups and make sure functionality works
+MandP - Merchant Info Summary looks ok with fields automatically filled out correctly
+MandP - Verify searching by OrgName functionality works
+MandP - Verify you can Save a view and functionality works correctly
+MandP - Make sure after you Save a view, you can open the submenu and everything looks good
+ALL MERCHANTS AND PARTNERS TESTS WERE COMPLETED SUCCESSFULLY!!!</comment>
+   <testCaseGuid>5a623271-e4c5-47f3-a15b-a1498bf4a224</testCaseGuid>
+</TestCaseEntity>

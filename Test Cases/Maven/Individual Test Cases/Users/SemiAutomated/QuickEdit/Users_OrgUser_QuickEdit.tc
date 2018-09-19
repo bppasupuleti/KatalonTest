@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Successfully adds a new user with OrgUser role, then uses QuickEdit to make changes.</description>
+   <name>Users_OrgUser_QuickEdit</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>c46a12c3-d562-4021-801b-3206d5a7fb4f</testCaseGuid>
+</TestCaseEntity>

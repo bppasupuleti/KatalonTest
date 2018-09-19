@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can select all options of the Users tab sucessfully.
+
+Steps:
+- Check all the password combinations
+- Check all the username combinations
+- Check logout/login functionality
+
+Expected results:
+Users tab functionality works correctly</description>
+   <name>TC1_User_Functionality</name>
+   <tag></tag>
+   <comment>Users - Add a new user with All roles and Delete when finished testing
+Users - Try entering an alphanumeric email address
+Users - Try adding a user with a duplicate email address
+Users - Try adding a new user with no assigned access
+Users - Try adding a new user with no Permission Role assigned
+Users - Add a new user with Org Admin role and Delete when finished testing
+Users - AddNewUser_OrgAdmin_QuickAdd_Delete functionality
+Users - Add a new user with Org Admin role and try logging in before password is set up
+Users - Add a new user with Org Admin role using QuickEdit
+Users - Add a new user with Org User role and Delete when finished testing
+Users - Add a new user with Org User role and try logging in before password is set up
+Users - Try saving a new user without required fields
+Users - Add a new user making sure password is required
+Users - Add a new user with Staff Admin role and Delete when finished testing
+Users - Add a new user with Staff Admin role and try logging in before password is set up
+Users - Add a new user with Staff User role and Delete when finished testing
+Users - Add a new user with Staff User role and try logging in before password is set up
+Users - Check Group Filters functionality
+Users - Check Org Name Search functionality
+Users - Check Users List Search functionality
+Users - Add New User - Org User - QuickAdd then Delete functionality
+Users - Add New User - Org User - QuickEdit functionality
+Users - Add New User - Staff Admin - QuickAdd then Delete functionality
+Users - Add New User - Staff Admin - QuickEdit functionality
+Users - Add New User - Staff User - QuickAdd then Delete functionality
+Users - Add New User - Staff User - QuickEdit functionality
+ALL USER TESTS WERE COMPLETED SUCCESSFULLY!!!</comment>
+   <testCaseGuid>b5a8e788-002c-4038-9645-3025e41defa7</testCaseGuid>
+</TestCaseEntity>

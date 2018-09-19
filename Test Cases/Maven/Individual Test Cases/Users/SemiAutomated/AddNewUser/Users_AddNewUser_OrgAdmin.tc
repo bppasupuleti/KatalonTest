@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with Org Admin role.</description>
+   <name>Users_AddNewUser_OrgAdmin</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>42ee9924-4049-42e3-94dd-e22aa45c72f6</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>c16da873-7863-4198-8e3b-d399278db1c7</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>ec7cd089-3c93-47b2-8267-08031d7a7722</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

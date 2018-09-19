@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with Admin role, and verifies that user can be selected without any errors.</description>
+   <name>UsersTab_AddNewUser_Admin</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>9284693d-c226-452a-b1b2-f0f2f9fef404</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>9cc64b81-acc1-48ae-a872-752eb6cccca8</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>cae11487-f25c-4ef8-9c00-0d83f18a2bed</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

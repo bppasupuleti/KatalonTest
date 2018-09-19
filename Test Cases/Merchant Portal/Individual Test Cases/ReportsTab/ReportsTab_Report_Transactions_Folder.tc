@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test verifies Filter functionality of Start and End Dates of Transactions Report</description>
+   <name>ReportsTab_Report_Transactions_Folder</name>
+   <tag>reports</tag>
+   <comment></comment>
+   <testCaseGuid>d07d1643-74c6-4c4c-be44-cbe2b3e42dab</testCaseGuid>
+</TestCaseEntity>

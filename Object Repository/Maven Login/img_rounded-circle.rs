@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_rounded-circle</name>
+   <tag></tag>
+   <elementGuidId>dea50d77-6cea-4d5c-b806-a92de98ffded</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rounded-circle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.gravatar.com/avatar/b4cea80f7f60a93bb7c3606e2cd86dbf?d=mm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;wrapper sub-nav-closed&quot;]/div[@class=&quot;mp-page&quot;]/div[@class=&quot;mp-header&quot;]/div[@class=&quot;mp-tools btn-toolbar flex-nowrap&quot;]/div[@class=&quot;dropdown&quot;]/div[1]/button[@class=&quot;btn btn-link btn-lg mp-account&quot;]/span[@class=&quot;d-flex align-items-center&quot;]/img[@class=&quot;rounded-circle&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

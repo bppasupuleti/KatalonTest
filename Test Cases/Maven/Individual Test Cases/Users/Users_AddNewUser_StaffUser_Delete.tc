@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users test case - Successfully adds a new user with StaffUser role and deletes user when testing complete to clean up.</description>
+   <name>Users_AddNewUser_StaffUser_Delete</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>9f33611f-6348-49c3-bfd5-1c1f8a19131b</testCaseGuid>
+</TestCaseEntity>

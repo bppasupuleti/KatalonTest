@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Successfully tests column filter functionality.</description>
+   <name>MandP_FilterColumns</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>6e265c70-7fbf-4077-94c6-167d4f148a2c</testCaseGuid>
+</TestCaseEntity>

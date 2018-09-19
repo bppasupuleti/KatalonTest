@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Preview</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>default long timeout</description>
+      <initValue>10</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Merchant Portal Staging URL</description>
+      <initValue>'https://mp-preview.chargeitpro.com'</initValue>
+      <name>G_SiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default short timeout</description>
+      <initValue>5</initValue>
+      <name>G_ShortTimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>used when consistent password needed in test cases</description>
+      <initValue>'Tester123$'</initValue>
+      <name>G_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with admin privileges</description>
+      <initValue>'test_admin'</initValue>
+      <name>G_Username_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with user privileges</description>
+      <initValue>'test_user'</initValue>
+      <name>G_Username_User</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with admin and user roles</description>
+      <initValue>'test_adminuser'</initValue>
+      <name>G_Username_Admin_User</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>tester user with all roles</description>
+      <initValue>'test_all'</initValue>
+      <name>G_Username_All</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default test email</description>
+      <initValue>'tester@chargeitpro.com'</initValue>
+      <name>G_Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default real email for email tests</description>
+      <initValue>'kathyw@chargeitpro.com'</initValue>
+      <name>G_RealEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Global logout</description>
+      <initValue>findTestObject('Page_ChargeItPro Merchant Portal - Users tab/div_tester1')</initValue>
+      <name>G_Testuser_Logout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default first name</description>
+      <initValue>'John'</initValue>
+      <name>G_First</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default last name</description>
+      <initValue>'Sample'</initValue>
+      <name>G_Last</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with all roles and account proxy</description>
+      <initValue>'kathyw'</initValue>
+      <name>G_Username_SuperAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with cloud terminal role</description>
+      <initValue>'test_cloud'</initValue>
+      <name>G_Username_CloudTerminal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with emergepay role</description>
+      <initValue>'test_emerge'</initValue>
+      <name>G_Username_Emergepay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with terminal configuration role</description>
+      <initValue>'test_terminal'</initValue>
+      <name>G_Username_Terminalconfig</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with no user roles selected</description>
+      <initValue>'test_none'</initValue>
+      <name>G_Username_None</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kathyw'</initValue>
+      <name>G_Username_Super2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default company name to be used for the entire group of tests</description>
+      <initValue>findTestObject('Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company')</initValue>
+      <name>G_Company</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description> Error occurred while importing transactions for ChargeItPro.net; your transactions may be out of date. Please contact ChargeItPro support for assistance.</description>
+      <initValue>'mp-preview.chargeitpro.com says'</initValue>
+      <name>G_Error</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Transactions Table</description>
+      <initValue>['CreatedOn', 'ProcessorTransactionId', 'ApprovalNumberResult', 'TransactionType', 'AmountProcessed', 'TransactionReference', 'BillingName', 'AccountCardType', 'MaskedAccount', 'Cashier', 'LocationName', 'EntryType']</initValue>
+      <name>G_Transactions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>List of Transaction Types</description>
+      <initValue>['All Types', 'Credit Sale', 'Debit Sale', 'Credit Force', 'ACH Sale', 'Credit Return', 'ACH Return']</initValue>
+      <name>G_TransactionType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Amount Operator Filter</description>
+      <initValue>['Select', 'Equal To', 'Greater Than', 'Less Than', 'Between']</initValue>
+      <name>G_Amount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Report List</description>
+      <initValue>['Transactions', 'Gift Transactions', 'Card Totals', 'All Activity', 'Location', 'Products', 'Versions', 'Cashier']</initValue>
+      <name>G_Report_DropdownMenu</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Card Type list</description>
+      <initValue>['All Card Types', 'Visa', 'Mastercard', 'Discover', 'American Express', 'JCB', 'Diners', 'China Union', 'Debit', 'Other']</initValue>
+      <name>G_CardType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Card Totals Summary Table</description>
+      <initValue>['Count', 'All Cards', 'All CC', 'DB', 'VS/MC/DC', 'AX', 'VS', 'MC', 'DC', 'JC', 'CU', 'XX']</initValue>
+      <name>G_CardTotalsSummary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Sales</description>
+      <initValue>['Sales', 'transactionSummarySaleCount', 'transactionSummary.AllCards_Sale', 'transactionSummary.AllCC_Sale', 'transactionSummary.Debit_Sale', 'transactionSummary.VMD_Sale', 'transactionSummary.AmericanExpress_Sale', 'transactionSummary.Visa_Sale', 'transactionSummary.MasterCard_Sale', 'transactionSummary.Discover_Sale', 'transactionSummary.JCB_Sale', 'transactionSummary.ChinaUnion_Sale', 'transactionSummary.Other_Sale']</initValue>
+      <name>G_Sales</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Returns</description>
+      <initValue>['Returns', 'transactionSummaryReturnCount', '-transactionSummary.AllCards_Return', '-transactionSummary.AllCC_Return', '-transactionSummary.Debit_Return', '-transactionSummary.VMD_Return', '-transactionSummary.AmericanExpress_Return', '-transactionSummary.Visa_Return', '-transactionSummary.MasterCard_Return', '-transactionSummary.Discover_Return', '-transactionSummary.JCB_Return', '-transactionSummary.ChinaUnion_Return', '-transactionSummary.Other_Return']</initValue>
+      <name>G_Returns</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Totals</description>
+      <initValue>['Totals', 'transactionSummarySaleCount + transactionSummaryReturnCount', 'transactionSummary.AllCards_Sale - transactionSummary.AllCards_Return', 'transactionSummary.AllCC_Sale - transactionSummary.AllCC_Return', 'transactionSummary.Debit_Sale - transactionSummary.Debit_Return', 'transactionSummary.VMD_Sale - transactionSummary.VMD_Return', 'transactionSummary.AmericanExpress_Sale - transactionSummary.AmericanExpress_Return', 'transactionSummary.Visa_Sale - transactionSummary.Visa_Return', 'transactionSummary.MasterCard_Sale - transactionSummary.MasterCard_Return', 'transactionSummary.Discover_Sale - transactionSummary.Discover_Return', 'transactionSummary.JCB_Sale - transactionSummary.JCB_Return', 'transactionSummary.ChinaUnion_Sale - transactionSummary.ChinaUnion_Return', 'transactionSummary.Other_Sale - transactionSummary.Other_Return']</initValue>
+      <name>G_Totals</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test company</description>
+      <initValue>'ChargeItPro Test HQ'</initValue>
+      <name>G_AccountProxy</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

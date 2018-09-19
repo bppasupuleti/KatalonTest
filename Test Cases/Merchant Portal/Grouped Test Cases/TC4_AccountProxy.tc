@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can select all options of the Users tab sucessfully.
+
+Steps:
+- Check all the password combinations
+- Check all the username combinations
+- Check logout/login functionality
+
+Expected results:
+Users tab functionality works correctly</description>
+   <name>TC4_AccountProxy</name>
+   <tag></tag>
+   <comment>Check Account Proxy_AdminUser_ByComputerId
+Check Account Proxy_AdminUser_ByInvalidLocationId
+Check Account Proxy_AdminUser_ByLocationName
+Check Account Proxy_AdminUser_ByLocationId
+Check Account Proxy_AdminUser_ByLocationName
+Check Account Proxy_AdminUser_InvalidCompanyName
+Run Account Proxy_IkaikaCO_AdminUser_GiftTransactionsReport_FilterByDateRange_AmountEqualTo
+Run Account Proxy_IkaikaCO_AdminUser_TransactionsReport_FilterByDateRange_AmountEqualTo
+Run Account Proxy_IkaikaCO_AdminUser_GiftTransactionsReport_FilterByDateRange_AmountGreaterThan
+Run Account Proxy_IkaikaCO_AdminUser_GiftTransactionsReport_FilterByDateRange_AmountLessThan
+Run Account Proxy_IkaikaCO_AdminUser_GiftTransactionsReport_FilterByDateRange_Between
+Run Account Proxy_IkaikaCO_AdminUser_GiftTransactionsReport_FilterByDateRange_Between_OneLocation
+ALL ACCOUNT PROXY TESTS WERE COMPLETED SUCCESSFULLY!!!</comment>
+   <testCaseGuid>89f12f32-117c-42d2-b122-1e8f9771d879</testCaseGuid>
+</TestCaseEntity>

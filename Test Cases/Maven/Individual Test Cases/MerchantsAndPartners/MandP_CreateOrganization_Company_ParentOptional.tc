@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Merchants and Partners test case - Successfully creates a new company with optional parent without any errors.</description>
+   <name>MandP_CreateOrganization_Company_ParentOptional</name>
+   <tag>mandp</tag>
+   <comment></comment>
+   <testCaseGuid>33e2c3bd-a981-45ff-afff-b65383bce27d</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>1381316d-3e9b-4da0-b1ee-3dbf026f77f5</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>e4887cc5-37d3-4e68-b2d7-9fec9e4d6aa9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

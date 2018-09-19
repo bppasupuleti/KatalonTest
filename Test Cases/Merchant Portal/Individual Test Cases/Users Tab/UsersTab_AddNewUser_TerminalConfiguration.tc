@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Users tab test case - Successfully adds a new user with Terminal Configuration role, and verifies that user can be selected without any errors.</description>
+   <name>UsersTab_AddNewUser_TerminalConfiguration</name>
+   <tag>users</tag>
+   <comment></comment>
+   <testCaseGuid>7458bbc7-5c10-4517-88e5-753a9fe934fb</testCaseGuid>
+   <variable>
+      <defaultValue>'https://mp-staging.chargeitpro.com'</defaultValue>
+      <description></description>
+      <id>60851683-9ca8-439d-8cd8-307fef753066</id>
+      <masked>false</masked>
+      <name>g_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'user_admin'</defaultValue>
+      <description></description>
+      <id>be2a4667-b128-408d-aec9-64ddb59abcfd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

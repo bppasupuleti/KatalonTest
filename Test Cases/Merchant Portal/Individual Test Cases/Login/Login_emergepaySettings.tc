@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login test case for Tester 6, which is an emergepay Settings User</description>
+   <name>Login_emergepaySettings</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>4f0435d0-6fec-429d-8144-7b59c94c940d</testCaseGuid>
+</TestCaseEntity>

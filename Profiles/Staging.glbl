@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Staging</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>default long timeout</description>
+      <initValue>10</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Merchant Portal Staging URL</description>
+      <initValue>'https://mp-staging.chargeitpro.com'</initValue>
+      <name>G_SiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default short timeout</description>
+      <initValue>5</initValue>
+      <name>G_ShortTimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>used when consistent password needed in test cases</description>
+      <initValue>'Tester123$'</initValue>
+      <name>G_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with admin privileges</description>
+      <initValue>'test_admin'</initValue>
+      <name>G_Username_Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with user privileges</description>
+      <initValue>'test_user'</initValue>
+      <name>G_Username_User</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with admin and user roles</description>
+      <initValue>'test_adminuser'</initValue>
+      <name>G_Username_Admin_User</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>tester user with all roles</description>
+      <initValue>'test_all'</initValue>
+      <name>G_Username_All</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default test email</description>
+      <initValue>'tester@chargeitpro.com'</initValue>
+      <name>G_Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default real email for email tests</description>
+      <initValue>'kathyw@chargeitpro.com'</initValue>
+      <name>G_RealEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Global logout</description>
+      <initValue>findTestObject('Page_ChargeItPro Merchant Portal - Users tab/div_tester1')</initValue>
+      <name>G_Testuser_Logout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default first name</description>
+      <initValue>'John'</initValue>
+      <name>G_First</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>default last name</description>
+      <initValue>'Sample'</initValue>
+      <name>G_Last</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with all roles and account proxy</description>
+      <initValue>'kathyw'</initValue>
+      <name>G_Username_SuperAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with cloud terminal role</description>
+      <initValue>'test_cloud'</initValue>
+      <name>G_Username_CloudTerminal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with emergepay role</description>
+      <initValue>'test_emerge'</initValue>
+      <name>G_Username_Emergepay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with terminal configuration role</description>
+      <initValue>'test_terminal'</initValue>
+      <name>G_Username_Terminalconfig</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test user with no user roles selected</description>
+      <initValue>'test_none'</initValue>
+      <name>G_Username_None</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kathyw'</initValue>
+      <name>G_Username_Super2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default company name to be used for the entire group of tests</description>
+      <initValue>findTestObject('Page_ChargeItPro Dashboard/div_ChargeItPro Kathys Company')</initValue>
+      <name>G_Company</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Variable to determine no transactions available</description>
+      <initValue>'No transactions'</initValue>
+      <name>NoTransactions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>test company</description>
+      <initValue>'IkaikaCo'</initValue>
+      <name>G_AccountProxy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>2nd location</description>
+      <initValue>'label_IkaikaCO Test 2'</initValue>
+      <name>G_2ndLocation</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
